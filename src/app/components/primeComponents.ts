@@ -24,7 +24,10 @@ import { RatingModule } from 'primeng/rating';
 import { SliderModule } from 'primeng/slider';
 import { SelectButtonModule } from 'primeng/selectbutton';
 import { ToggleButtonModule } from 'primeng/togglebutton';
-import {TriStateCheckboxModule} from 'primeng/tristatecheckbox';
+import { TriStateCheckboxModule } from 'primeng/tristatecheckbox';
+import { SplitButtonModule } from 'primeng/splitbutton';
+import { DataViewModule } from 'primeng/dataview';
+import {FullCalendarModule} from '@fullcalendar/angular';
 
 
 @NgModule({
@@ -53,7 +56,10 @@ import {TriStateCheckboxModule} from 'primeng/tristatecheckbox';
     SliderModule,
     SelectButtonModule,
     ToggleButtonModule,
-    TriStateCheckboxModule
+    TriStateCheckboxModule,
+    SplitButtonModule,
+    DataViewModule,
+    FullCalendarModule
   ]
 })
 export class PrimeComponentsModule {}
