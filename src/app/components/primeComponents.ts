@@ -14,7 +14,18 @@ import { InputSwitchModule } from 'primeng/inputswitch';
 import { InputTextModule } from 'primeng/inputtext';
 import { InputTextareaModule } from 'primeng/inputtextarea';
 import { InputNumberModule } from 'primeng/inputnumber';
-import {KnobModule} from 'primeng/knob';
+import { KnobModule } from 'primeng/knob';
+import { KeyFilterModule } from 'primeng/keyfilter';
+import { ListboxModule } from 'primeng/listbox';
+import { MultiSelectModule } from 'primeng/multiselect';
+import { PasswordModule } from 'primeng/password';
+import { RadioButtonModule } from 'primeng/radiobutton';
+import { RatingModule } from 'primeng/rating';
+import { SliderModule } from 'primeng/slider';
+import { SelectButtonModule } from 'primeng/selectbutton';
+import { ToggleButtonModule } from 'primeng/togglebutton';
+import {TriStateCheckboxModule} from 'primeng/tristatecheckbox';
+
 
 @NgModule({
   exports: [
@@ -32,7 +43,17 @@ import {KnobModule} from 'primeng/knob';
     InputTextModule,
     InputTextareaModule,
     InputNumberModule,
-    KnobModule
+    KnobModule,
+    KeyFilterModule,
+    ListboxModule,
+    MultiSelectModule,
+    PasswordModule,
+    RadioButtonModule,
+    RatingModule,
+    SliderModule,
+    SelectButtonModule,
+    ToggleButtonModule,
+    TriStateCheckboxModule
   ]
 })
 export class PrimeComponentsModule {}
